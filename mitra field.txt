@@ -1,16 +1,16 @@
-id
-name
-activity_name
-total
-start_duration
+id                          -> ID POSITION
+name                        -> POSTION NAME
+activity_name               -> MITRA ACTIVITY
+total                       -> QUOTA POSITION
+start_duration              
 end_duration
 start_registration
 end_registration
-credits_count
-activity_type
-location
-location_kotakab_code
-mitra_id
-certified
-logo
-mitra_name
+credits_count               -> SKS CREDIT
+activity_type               -> WFO/WFH/Hybrid(BLENDED)
+location                    -> LOKASI
+location_kotakab_code       -> CODE LOCATION
+mitra_id                    -> MITRA ID
+certified                   -> CERTIFIED
+logo                        -> LOGO
+mitra_name                  -> NAMA MITRA
