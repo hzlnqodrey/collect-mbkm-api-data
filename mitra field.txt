@@ -1,0 +1,16 @@
+id
+name
+activity_name
+total
+start_duration
+end_duration
+start_registration
+end_registration
+credits_count
+activity_type
+location
+location_kotakab_code
+mitra_id
+certified
+logo
+mitra_name
