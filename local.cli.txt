@@ -3,3 +3,8 @@ uvicorn main:app --port 9090
 
 # deploy in vercel
 vercel deploy
+
+# deploy in deta.sh [Ref: https://fastapi.tiangolo.com/deployment/deta/#__tabbed_1_2]
+deta login
+deta new
+
