@@ -1,12 +1,15 @@
 {
-    "build": {
-        "src": "app/main.py",
-        "use": "@vercel/python"
-    },
-    "routes": [
+    "buildCommand": "uvicorn main:app --port 8000",
+    "redirects" : [
         {
-            "src": "/(.*)",
-            "dest": "app/main.py"
+            "source": "/magang_data_api,", "destination": "/main.py"
+        },
+        {
+            "source": "/view-source", "destination": "https://github.com/vercel/vercel"
         }
-    ]
+    ],
+    "public": true,
+    "cleanUrls": true,
+    "regions": ["sin1"],
+    "trailingSlash": false
 }
