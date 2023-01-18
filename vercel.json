@@ -1,5 +1,5 @@
 {
-    "buildCommand": "uvicorn main:app --port 8000",
+    "buildCommand": "pip install -r requirements.txt --use-pep517 && uvicorn main:app --port 8000",
     "redirects" : [
         {
             "source": "/magang_data_api,", "destination": "/main.py"
