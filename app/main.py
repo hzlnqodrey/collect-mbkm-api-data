@@ -27,7 +27,7 @@ def status(response: Response):
     # Fetch Data
     data = pd.read_csv('./app/DATA/COMPACT/compact.csv')
 
-    data = data.fillna('')
+    data = data.fillna('') # have to replace NaN values in the dataframe
 
     result = []
 
@@ -35,3 +35,6 @@ def status(response: Response):
         result.append(row)
 
     return api_builder.builder(result, response.status_code)
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port="9000", reload=True)

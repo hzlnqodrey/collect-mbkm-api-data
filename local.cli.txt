@@ -1,1 +1,5 @@
+# local running
 uvicorn main:app --port 9090
+
+# deploy in vercel
+vercel deploy
